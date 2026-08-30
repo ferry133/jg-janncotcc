@@ -36,7 +36,7 @@ spec:
         # the next reconcile and then vanishes, which reads as an outage with no
         # cause — jgt-omni lost its terminal exactly that way on 2026-08-12, and
         # jg-jiahd carries a hand-edited copy of this file for the same reason.
-        replicas: 0
+        replicas: 1
         serviceAccount:
           name: claude-code # shared SA, RBAC bound in jg-base claudecode app
         containers:
