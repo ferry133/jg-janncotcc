@@ -105,7 +105,7 @@ spec:
               - --http-address=0.0.0.0:4180
               - --upstream=http://127.0.0.1:7681
               - --provider=oidc
-              - --oidc-issuer-url=https://dev-s6klrnbd0umevgxf.us.auth0.com/
+              - --oidc-issuer-url=https://janncotcc.us.auth0.com/
               - --scope=openid profile email
               - --redirect-url=https://im.${SECRET_DOMAIN}/oauth2/callback
               - --authenticated-emails-file=/etc/oauth2-proxy/allowed-emails
